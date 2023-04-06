@@ -34,6 +34,7 @@ try:
             for i in fileList:
                 mergedPdf.append(i)
             mergedPdf.write('MergedPDF.pdf')
+            mergedPdf.close()
             break
         
         else:
